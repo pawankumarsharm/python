@@ -1,0 +1,9 @@
+h1{
+  text-align: center;
+}
+body{
+  background: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg );
+  color:blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

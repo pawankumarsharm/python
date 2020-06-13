@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/advtempot.css"%}">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <div class="navbar-header">
+      <a class="navbar-brand" href="#">Banglore news</a>
+    </div>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">home</a>
+          </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="/politics">Politics</a>
+          </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="/movies">Movies</a>
+          </li>
+          <li class="nav-item active">
+          <a class="nav-link" href="/sports">Sports</a>
+      </li>
+            </div>
+          </li>
+      </div>
+    </nav>
+{% block body_block %}
+{% endblock %}
+
+  </body>
+</html>

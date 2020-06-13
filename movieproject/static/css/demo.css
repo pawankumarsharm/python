@@ -1,0 +1,21 @@
+body{
+  background:url(https://cdn.pixabay.com/photo/2015/12/09/17/12/popcorn-1085072__340.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:green;
+}
+.container .jumbotron{
+  margin-top: 200px;
+  background:orange;
+  color: blue;
+}
+table,tr,td,th,thead{
+  border: 2px solid white;
+  font-size: 30px;
+  color: white;
+  background: red;
+  margin:auto;
+}
+h1{
+  text-align: center;
+}
